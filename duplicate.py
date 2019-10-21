@@ -3,7 +3,7 @@ def fun(x):
     size=len(x)
     for i in range(size):
         k=i+1;
-        for j in range(size,k):
+        for j in range(k,size):
             if (x[i]==x[j] and not in repeated):
                 repeated.append(x[i])
     return repeated
